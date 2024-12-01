@@ -56,7 +56,7 @@ function toggleNav() {
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('header nav');
 
-// Toggle active class to show/hide the menu
+
 menuToggle.addEventListener('click', () => {
   nav.classList.toggle('active');
 });
